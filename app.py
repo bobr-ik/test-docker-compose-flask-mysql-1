@@ -7,7 +7,6 @@ CORS(app)
 
 SyncORM.create_table()
 SyncORM.insert_data()
-print(SyncORM.select_data())
 
 
 @app.route('/', methods=['GET'])
