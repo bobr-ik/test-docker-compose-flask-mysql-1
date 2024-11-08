@@ -9,7 +9,7 @@ SyncORM.create_table()
 SyncORM.insert_data()
 
 
-@app.route('/', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def hello_world():
     data = request.args.get('id')
     data = 1
